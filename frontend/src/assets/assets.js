@@ -1,7 +1,11 @@
 import profilePhoto from "./profile-photo.jpeg";
+import whitelogo from "./whitelogo.png";
+import blacklogo from "./blacklogo.png";
 
 export const data = {
   profilePhoto,
+  whitelogo,
+  blacklogo,
 };
 
 export const profileDetails = {

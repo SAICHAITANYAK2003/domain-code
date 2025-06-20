@@ -2,8 +2,6 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaPhone } from "react-icons/fa";
 import { data, profileDetails } from "./assets/assets";
 
-
-
 export default function Index() {
   return (
     <div className="min-h-screen flex flex-col justify-between relative overflow-hidden bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-200">
@@ -90,7 +88,8 @@ export default function Index() {
       {/* Footer */}
       <footer className="text-center py-4 bg-white/60 backdrop-blur-sm z-10 relative">
         <p className="text-gray-700 font-medium">
-          🚧 This website is currently under development. Stay tuned for updates! 🚧
+          🚧 This website is currently under development. Stay tuned for
+          updates! 🚧
         </p>
       </footer>
     </div>
