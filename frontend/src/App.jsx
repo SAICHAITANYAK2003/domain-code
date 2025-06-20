@@ -2,6 +2,11 @@ import React from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { data } from "./assets/assets.js";
 
+const Urls = {
+  githubUrl: "https://github.com/SAICHAITANYAK2003",
+  linkedInUrl: "https://www.linkedin.com/in/saichaitanyakoduri/",
+};
+
 export default function Index() {
   return (
     <div className="min-h-screen flex flex-col justify-between relative overflow-hidden bg-gradient-to-tr from-blue-100 via-purple-100 to-pink-200">
@@ -43,7 +48,7 @@ export default function Index() {
           </p>
           <div className="flex justify-center gap-8 mb-6">
             <a
-              href="#"
+              href={Urls.githubUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-700 hover:text-indigo-600 transition"
@@ -53,7 +58,7 @@ export default function Index() {
               <span className="hidden sm:inline">GitHub</span>
             </a>
             <a
-              href="#"
+              href={Urls.linkedInUrl}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-2 text-gray-700 hover:text-indigo-600 transition"
